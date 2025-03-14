@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: sans-serif;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url('/img/IMG_20250314_213230.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 150%;
+  max-width: 900px;
+  text-align: center;
+  background: rgba(52, 52, 52, 0.6);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.nav:link, .nav:visited {
+  background-color: darkred;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav:hover, .nav:active {
+  background-color: red;
+}
+
+header {
+  color: white;
+  padding: 20px;
+  
+}
+
+header h1 {
+  margin: 0;
+}
+
+.image img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 20px auto;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.review, .faq {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  background: lightgrey;
+  color:black;
+}
+
+footer.contactinfo {
+  margin-top: 50px;
+  padding: 8px;
+  background: lightyellow;
+  border: 1px solid;
+}
+
+.buy-now {
+  background: darkred;
+  border: none;
+  padding: 12px 23px;
+  font-size: 16px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.buy-now:hover {
+  background: indianred;
+}
+.table1 {
+  border-spacing: 30px;
+  color: white;
+}
+.table2 {
+  border-spacing: 10px;
+  margin-left:auto; 
+  margin-right:auto;
+  color: white;
+}
+
